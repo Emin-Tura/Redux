@@ -1,0 +1,6 @@
+Actionu dispatch ettiğimizde anında gerceklesen bir işlem değildir.
+Asenkron bir işlemdir.
+
+Bu middleware dediğimiz kavramlarlada bu actionu durdurabiliriz baslatabiliriz
+bunun gibi bir sürü işlem yapabiliriz.
+Bunun için bize sunulan thunk isimli bir middle ware var.

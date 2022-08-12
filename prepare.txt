@@ -1,0 +1,12 @@
+reducer statei degistirmeden once ona gelen paylodu degistirebiliyoruz
+bunu nerde kullanacagiz:
+	ornegin id atamam var ve id yi birden fazla componenette atiyorum.
+	bunun iciin herseferinde id olusturucuyu import etmem gerekiyor.
+	Bunu yapmamak icin prepare denen yapiyi kullaniriz
+
+siralama soyle
+-dispatch yapilir
+-eger prepare varsa once ondan gecer return edilen ifade alinir
+-daha sonra action altina yazilir
+
+  
